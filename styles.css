@@ -1,0 +1,80 @@
+
+header {
+    background: url('Imagem/Oportunidades-de-Negócio.jpg') no-repeat center center;
+    background-size: cover; 
+    color: #000; 
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative; 
+}
+
+header h1 {
+    margin: 0;
+    position: relative; 
+    z-index: 1; 
+    font-size: 2.5rem;
+}
+
+footer {
+    background-color: #333;<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agrinho 2024</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="inicio">
+    …            <p>Nome: Gabriel Fabiano Teixeira</p>
+                <p>Idade: 18</p>
+                <p>Está se capacitando em: Programação e robótica.</p>
+                <p>Colégio: Cívico Militar Edith de Sousa Prado de Oliveira</p>
+                                <p>Serie: Terceiro ano do ensino médio</p>   		
+            </details>
+            </footer>
+        </main>
+    </body>
+    </html>
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    position: relative; 
+    z-index: 1; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: #000; 
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
