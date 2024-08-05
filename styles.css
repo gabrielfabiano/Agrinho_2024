@@ -22,7 +22,7 @@ header h1 {
     margin: 0;
     position: relative; 
     z-index: 1; 
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 footer {
@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
     color: #000; 
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 @media (max-width: 768px) {
@@ -60,10 +60,10 @@ nav ul li a {
     }
 
     header h1 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     nav ul li a {
-        font-size: 3rem;
+        font-size: 6rem;
     }
 }
