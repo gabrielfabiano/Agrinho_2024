@@ -9,6 +9,16 @@
     --cor-foot:  #333;
 }
 
+.titulo {
+    font-size: 10px;
+    color: var(--fundo-texto);
+}
+
+.normal {
+    font-size: 5px;
+    color: var(--fundo-texto);
+}
+
 header {
     background: url('Imagem/Oportunidades-de-Negócio.jpg') no-repeat center center;
     background-size: cover; 
@@ -70,4 +80,5 @@ nav ul li a {
 
 body {
     margin: 20px;
+    padding: 20rem;
 }
