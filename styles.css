@@ -1,4 +1,18 @@
 
+ {
+
+}
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+    --cor-foot:  #333;
+}
+
 header {
     background: url('Imagem/Oportunidades-de-Negócio.jpg') no-repeat center center;
     background-size: cover; 
@@ -15,28 +29,10 @@ header h1 {
     font-size: 2.5rem;
 }
 
+
 footer {
-    background-color: #333;<!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agrinho 2024</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header id="inicio">
-    …            <p>Nome: Gabriel Fabiano Teixeira</p>
-                <p>Idade: 18</p>
-                <p>Está se capacitando em: Programação e robótica.</p>
-                <p>Colégio: Cívico Militar Edith de Sousa Prado de Oliveira</p>
-                                <p>Serie: Terceiro ano do ensino médio</p>   		
-            </details>
-            </footer>
-        </main>
-    </body>
-    </html>
-    color: white;
+    background-color: var(--cor-foot);
+   
     text-align: center;
     padding: 1rem;
 }
