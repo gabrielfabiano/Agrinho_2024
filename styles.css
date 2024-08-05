@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
     color: #000; 
     text-decoration: none;
-    font-size: 6rem;
+    font-size: 6px;
 }
 
 @media (max-width: 768px) {
@@ -66,4 +66,8 @@ nav ul li a {
     nav ul li a {
         font-size: 6rem;
     }
+}
+
+body {
+    margin: 20px;
 }
