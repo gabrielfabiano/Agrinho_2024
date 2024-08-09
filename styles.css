@@ -1,0 +1,192 @@
+:root {
+    --imagem-fundo-header: url('Imagem/Cabeçalho.jpg');
+    --cor-fundo-footer: #333;
+    --cor-texto-header: #000;
+    --cor-texto-footer: white;
+    --cor-link-nav: #000;
+    --tamanho-fonte-h1: 2.5rem;
+    --tamanho-fonte-h1-mobile: 2rem;
+    --tamanho-fonte-link: 1.2rem;
+    --tamanho-fonte-link-mobile: 1rem;
+    --padding-container: 2rem;
+    --padding-container-mobile: 1.5rem 1rem;
+    --padding-header: 2rem 1rem;
+    --padding-footer: 1rem;
+    --margin-nav-ul: 1rem 0;
+    --margin-nav-li: 0.5rem 1rem;
+    --imagem-fundo-body: url('Imagem/Imagem13.jpg');
+    --cor-texto-body: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--imagem-fundo-body) no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-texto-body);
+}
+
+h2 {
+    color: var(--cor-texto-body);
+}
+h3{
+    color: var(--cor-texto-body);
+}
+
+p {
+    color: var(--cor-texto-body);
+}
+
+li{
+    color: var(--cor-texto-body);
+}
+
+details{
+    color: var(--cor-texto-header);
+}
+
+summary {
+    color: var(--cor-texto-body);
+}
+
+.container {
+    margin: 0 auto;
+    padding: var(--padding-container); 
+    max-width: 1200px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+header {
+    background: var(--imagem-fundo-header) no-repeat center center;
+    background-size: cover; 
+    color: var(--cor-texto-header); 
+    padding: var(--padding-header);
+    text-align: center;
+    position: relative; 
+}
+
+header h1 {
+    margin: 0;
+    position: relative; 
+    z-index: 1; 
+    color: var(--cor-texto-header);
+    font-size: var(--tamanho-fonte-h1);
+}
+
+footer {
+    background-color: var(--cor-fundo-footer);
+    color: var(--cor-texto-footer);
+    text-align: center;
+    padding: var(--padding-footer);
+}
+
+nav {
+    position: relative; 
+    z-index: 1; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    margin: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: var(--padding-container-mobile);
+    }
+
+    header h1 {
+        font-size: var(--tamanho-fonte-h1-mobile);
+    }
+
+    nav ul li a {
+        font-size: var(--tamanho-fonte-link-mobile);
+    }
+}
+
+/*CSS da lupinha*/
+#search-icon {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000; 
+}
+
+
+#chat-box {
+    display: none;
+    position: fixed;
+    top: 50px; 
+    right: 10px; 
+    width: 300px; 
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000; 
+    max-height: 80vh; 
+    overflow-y: auto; 
+}
+
+
+#chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#chat-content {
+    padding: 10px;
+}
+
+
+#chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+#chat-input input {
+    flex: 1;
+    padding: 5px;
+}
+
+#chat-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#chat-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
