@@ -41,6 +41,10 @@ p {
     color: var(--cor-texto-body);
 }
 
+li{
+    color: var(--cor-texto-body);
+}
+
 .container {
     margin: 0 auto;
     padding: var(--padding-container); 
@@ -76,26 +80,6 @@ nav {
     position: relative; 
     z-index: 1; 
 }
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: var(--margin-nav-ul);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: var(--margin-nav-li);
-}
-
-nav ul li a {
-    color: var(--cor-link-nav); 
-    text-decoration: none;
-    font-size: var(--tamanho-fonte-link);
-}
-
 
 .image-container {
     display: flex;
