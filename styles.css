@@ -1,7 +1,7 @@
 :root {
     --imagem-fundo-header: url('Imagem/Oportunidades-de-Negócio.jpg');
     --cor-texto-header: #000;
-    --cor-texto-lupa: #000;
+    --cor-texto-lupa: #333;
     --cor-fundo-footer: #333;
     --cor-texto-footer: white;
     --cor-link-nav: #000;
