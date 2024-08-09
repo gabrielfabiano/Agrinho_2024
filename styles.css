@@ -25,13 +25,22 @@ body {
     background: var(--imagem-fundo-body) no-repeat center center;
     background-size: cover; 
     background-attachment: fixed; 
-    color: var(--cor-texto-body);
+    
     text-align: center;
 }
 
-.textoPreto {
-    color: var(--cor-fundo-lupa);
+h1 {
+    color: var(--cor-texto-body);
 }
+
+h2 {
+    color: var(--cor-texto-body);
+}
+
+p {
+    color: var(--cor-texto-body);
+}
+
 .container {
     margin: 0 auto;
     padding: var(--padding-container); 
