@@ -1,6 +1,8 @@
 # Agrinho_2024
 Projeto Categoria 2
 
+https://gabrielfabiano.github.io/Agrinho_2024/
+
  Botão da lupa(opcional)
  
  Ao entrar na página o leitor vai se deparar com um alerta pedindo para usar a lupa para navegar pela página.
